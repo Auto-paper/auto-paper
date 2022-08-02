@@ -19,7 +19,7 @@ const StudentSchema = new mongoose.Schema(
       last: { type: String, required: false },
     },
     enrollment: { type: String, required: true, unique: true },
-    photoUrl: {
+    photoId: {
       type: String,
       required: true,
     },
